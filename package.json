@@ -1,6 +1,6 @@
 {
-  "name": "v-autocomplete-extended",
-  "version": "1.0.0",
+  "name": "@ellevue/autocomplety",
+  "version": "0.0.1",
   "description": "v-autocomplete with \"other\" option",
   "main": "src/index.vue",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CrisGuzmanS/v-autocomplete-extended.git"
+    "url": "git+https://github.com/ellevue/autocomplety.git"
   },
   "keywords": [
     "v-autocomplete",
@@ -27,9 +27,9 @@
   "author": "Cristian Emanuelle Guzmán Suárez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CrisGuzmanS/v-autocomplete-extended/issues"
+    "url": "https://github.com/ellevue/autocomplety/issues"
   },
-  "homepage": "https://github.com/CrisGuzmanS/v-autocomplete-extended#readme",
+  "homepage": "https://github.com/ellevue/autocomplety#readme",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
     "vite": "^6.3.5"

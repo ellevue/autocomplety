@@ -9,13 +9,13 @@ Este paquete permite usar el componente v-autocomplete de vuetify con la opción
 ## Instalación
 
 ```bash
-npm install v-autocomplete-extended
+npm install @ellevue/autocomplety
 ```
 
 ## Uso
 
 ```js
-import VAutocompleteExtended from 'v-autocomplete-extended';
+import VAutocompleteExtended from '@ellevue/autocomplety';
 Vue.component('v-autocomplete-extended', VAutocompleteExtended);
 ```
 
