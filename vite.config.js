@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: 'src/index.vue',
+      entry: 'index.js',
       name: 'VuetifyAutocompleteExtended',
       fileName: (format) => `vuetify-autocomplete-extended.${format}.js`
     },

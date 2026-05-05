@@ -1,11 +1,13 @@
 {
   "name": "@ellevue/autocomplety",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "v-autocomplete with \"other\" option",
-  "main": "src/index.vue",
+  "main": "dist/vuetify-autocomplete-extended.umd.js",
+  "module": "dist/vuetify-autocomplete-extended.es.js",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
+    "build": "npm i && vite build",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,9 @@
     "autocomplete",
     "extended",
     "other"
+  ],
+  "files": [
+    "dist"
   ],
   "peerDependencies": {
     "vue": "^3.5.16",
